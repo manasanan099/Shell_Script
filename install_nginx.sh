@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #install epel-release
-yum install -y epel-release
+sudo yum install -y epel-release
 
 #install nginx
 yum install -y nginx
