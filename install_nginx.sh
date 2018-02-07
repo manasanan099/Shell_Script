@@ -23,7 +23,7 @@ firewall-cmd --reload
 curl https://raw.githubusercontent.com/creationix/nvm/v0.13.1/install.sh | bash
 
 #.bash_prifile
-source ~/.bash_profile
+source ~/.bash_profile""
 
 #install node version 9.5.0
 nvm install 9.5.0
