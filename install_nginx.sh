@@ -34,5 +34,8 @@ nvm use 9.5.0
 #set default node version
 nvm alias default v9.5.0
 
+#install pm2
+npm install pm2
+
 
 
