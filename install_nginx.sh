@@ -19,4 +19,20 @@ firewall-cmd --permanent --zone=public --add-service=https
 #reload
 firewall-cmd --reload
 
+#curl node repo
+curl https://raw.githubusercontent.com/creationix/nvm/v0.13.1/install.sh | bash
+
+#.bash_prifile
+source ~/.bash_profile
+
+#install node version 9.5.0
+nvm install 9.5.0
+
+#use node v9.5.0
+nvm use 9.5.0
+
+#set default node version
+nvm alias default v9.5.0
+
+
 
